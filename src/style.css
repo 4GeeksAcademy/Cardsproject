@@ -1,5 +1,51 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #d8a9f1;
+}
+.text-center h2{
+color: #48989e;
+
+}
+.cardBody{
+    display: inline-block;
+    background-color: #e0dcdc;
+    margin: auto;
+    margin-top: 200px;
+    height: 600px;
+    width: 390px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+.upIcon {
+position: absolute;
+top: -45px;
+left: 10px;
+font-size: 135px;
+}
+.bottomIcon {
+position: absolute;
+top: 15px;
+right: 15px;
+margin-top: 110%;
+font-size: 135px;
+transform: rotate(180deg);
+}
+#number{
+    padding-top: 175px;
+    font-size: 135px;
+}
+.timeButton{
+    margin-top: 30px;
+    margin-right: 220px;
+}
+#countdown {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff0000; 
+  min-width: 25px;
+  text-align: center;
+  border: 2px dotted black;
 }

@@ -16,19 +16,37 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
+     <div class="text-center">
+      <h2>Welcome to the random card generator</h2>
+      <p>For more information and interactivity, open the console ====▶👉</p>
+     </div>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
+      <div class="cardBody">
+       <div class="upIcon"> 
+        <span class="colorIcon">♠</span>
+       </div>
+       <div id="number">
+        <span>10</span>
+       </div>
+       <div class="bottomIcon">
+        <span class="colorIcon">♠</span>
+       </div>
+       </div>
 
+ <div class="timeButton text-center">
+ <div class="d-inline-flex align-items-center gap-3">
+    <button type="button" id="timeButton">
+      <i class="fas fa-sync"></i> Countdown!
+    </button>
+ <div id="countdown"></div>
+  </div>
+</div>
+
+
+
+
+
+    
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
   </body>
